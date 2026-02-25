@@ -9,6 +9,7 @@ interface Setting {
   subsettings: string[]
 }
 
+//Comment this out!!!
 const commonSettings: Setting[] = [
   {
     name: "Display",
@@ -51,6 +52,148 @@ const commonSettings: Setting[] = [
     subsettings: ["Device Name", "OS Version", "Build Number", "Serial Number", "System Updates"]
   }
 ]
+//Comment this out!!
+
+const commonSettings: Setting[] = [
+{
+    name: "Display",
+    icon: "🖥️",
+    subsettings: [
+      "Brightness",
+      "True Tone",
+      "Night Shift",
+      "Auto-Lock",
+      "Raise to Wake",
+      "Dark Mode",
+      "Text Size",
+      "Bold Text",
+      "Display Zoom",
+      "Always-On Display"
+    ]
+  },
+  {
+    name: "Sound",
+    icon: "🔊",
+    subsettings: [
+      "Ringer Volume",
+      "Media Volume",
+      "Change with Buttons",
+      "Ringtone",
+      "Text Tone",
+      "New Mail Sound",
+      "Calendar Alerts",
+      "AirDrop Sound",
+      "Keyboard Clicks",
+      "Lock Sound",
+      "Haptics",
+      "System Haptics"
+    ]
+  },
+  {
+    name: "Network",
+    icon: "🌐",
+    subsettings: [
+      "WiFi",
+      "WiFi Networks",
+      "Auto-Join Hotspot",
+      "Bluetooth",
+      "AirDrop",
+      "Airplane Mode",
+      "Cellular Data",
+      "Cellular Data Options",
+      "Data Roaming",
+      "Personal Hotspot",
+      "VPN",
+      "Carrier Settings"
+    ]
+  },
+  {
+    name: "Battery",
+    icon: "🔋",
+    subsettings: [
+      "Battery Level",
+      "Low Power Mode",
+      "Battery Health",
+      "Maximum Capacity",
+      "Peak Performance Capability",
+      "Charging Optimization",
+      "Charging History",
+      "Usage by App",
+      "Screen On Time",
+      "Background Activity"
+    ]
+  },
+  {
+    name: "Storage",
+    icon: "💾",
+    subsettings: [
+      "Used Storage",
+      "Available Storage",
+      "iCloud Storage",
+      "Manage Storage",
+      "App Storage Usage",
+      "Photos Storage",
+      "Messages Storage",
+      "Downloads",
+      "System Data",
+      "Offload Unused Apps"
+    ]
+  },
+  {
+    name: "Accessibility",
+    icon: "♿",
+    subsettings: [
+      "VoiceOver",
+      "Zoom",
+      "Magnifier",
+      "Display Accommodations",
+      "Motion Settings",
+      "Spoken Content",
+      "Audio Descriptions",
+      "Touch Accommodations",
+      "Face ID Attention",
+      "Guided Access",
+      "AssistiveTouch"
+    ]
+  },
+  {
+    name: "Privacy",
+    icon: "🔒",
+    subsettings: [
+      "Location Services",
+      "Tracking",
+      "Camera Access",
+      "Microphone Access",
+      "Photos Access",
+      "Contacts Access",
+      "Bluetooth Access",
+      "Local Network Access",
+      "Motion & Fitness",
+      "Analytics & Improvements",
+      "App Privacy Report"
+    ]
+  },
+  {
+    name: "About",
+    icon: "ℹ️",
+    subsettings: [
+      "Device Name",
+      "iOS Version",
+      "Model Name",
+      "Model Number",
+      "Serial Number",
+      "Coverage Status",
+      "Carrier",
+      "WiFi Address",
+      "Bluetooth Address",
+      "IMEI",
+      "System Firmware",
+      "Software Update"
+    ]
+  }
+]
+
+
 
 export default function Version() {
 
