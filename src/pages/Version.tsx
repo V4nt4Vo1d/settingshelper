@@ -10,48 +10,48 @@ interface Setting {
 }
 
 //Comment this out!!!
-const commonSettings: Setting[] = [
-  {
-    name: "Display",
-    icon: "🖥️",
-    subsettings: ["Brightness", "Color Temperature", "Resolution", "Refresh Rate", "Night Light"]
-  },
-  {
-    name: "Sound",
-    icon: "🔊",
-    subsettings: ["Volume", "Notifications", "System Sounds", "Vibration", "Audio Output"]
-  },
-  {
-    name: "Network",
-    icon: "🌐",
-    subsettings: ["WiFi", "Bluetooth", "Ethernet", "VPN", "Mobile Data"]
-  },
-  {
-    name: "Battery",
-    icon: "🔋",
-    subsettings: ["Battery Level", "Power Mode", "Battery Health", "Usage Stats", "Charging"]
-  },
-  {
-    name: "Storage",
-    icon: "💾",
-    subsettings: ["Used Space", "Available Space", "App Storage", "Photos", "Downloads"]
-  },
-  {
-    name: "Accessibility",
-    icon: "♿",
-    subsettings: ["Screen Reader", "Magnifier", "Captions", "Font Size", "High Contrast"]
-  },
-  {
-    name: "Privacy",
-    icon: "🔒",
-    subsettings: ["Location", "Camera", "Microphone", "Contacts", "Photos"]
-  },
-  {
-    name: "About",
-    icon: "ℹ️",
-    subsettings: ["Device Name", "OS Version", "Build Number", "Serial Number", "System Updates"]
-  }
-]
+// const commonSettings: Setting[] = [
+//   {
+//     name: "Display",
+//     icon: "🖥️",
+//     subsettings: ["Brightness", "Color Temperature", "Resolution", "Refresh Rate", "Night Light"]
+//   },
+//   {
+//     name: "Sound",
+//     icon: "🔊",
+//     subsettings: ["Volume", "Notifications", "System Sounds", "Vibration", "Audio Output"]
+//   },
+//   {
+//     name: "Network",
+//     icon: "🌐",
+//     subsettings: ["WiFi", "Bluetooth", "Ethernet", "VPN", "Mobile Data"]
+//   },
+//   {
+//     name: "Battery",
+//     icon: "🔋",
+//     subsettings: ["Battery Level", "Power Mode", "Battery Health", "Usage Stats", "Charging"]
+//   },
+//   {
+//     name: "Storage",
+//     icon: "💾",
+//     subsettings: ["Used Space", "Available Space", "App Storage", "Photos", "Downloads"]
+//   },
+//   {
+//     name: "Accessibility",
+//     icon: "♿",
+//     subsettings: ["Screen Reader", "Magnifier", "Captions", "Font Size", "High Contrast"]
+//   },
+//   {
+//     name: "Privacy",
+//     icon: "🔒",
+//     subsettings: ["Location", "Camera", "Microphone", "Contacts", "Photos"]
+//   },
+//   {
+//     name: "About",
+//     icon: "ℹ️",
+//     subsettings: ["Device Name", "OS Version", "Build Number", "Serial Number", "System Updates"]
+//   }
+// ]
 //Comment this out!!
 
 const commonSettings: Setting[] = [
