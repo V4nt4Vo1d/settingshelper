@@ -4,12 +4,11 @@ import { motion } from "framer-motion"
 import { useRef, useEffect, useState } from "react"
 
 const versions: Record<string, string[]> = {
-  iphone: ["iOS 26", "iOS 25"],
-  android: ["Android 16", "Android 15"],
+  iphone: ["iOS 26", "iOS 18", "iOS17"],
+  android: ["Android 16", "Android 15", "Android 14"],
   windows: ["Windows 11", "Windows 10"],
   macos: ["Sequoia", "Sonoma"],
-  linux: ["Ubuntu Linux", "Linux Mint", "Kali Linux"],
-  chromeos: ["ChromeOS", "ChromeOS Extended"],
+  chromeos: ["ChromeOS 144", "ChromeOS 140-143"],
   xbox: ["Xbox Series X", "Xbox Series S"],
   playstation: ["PlayStation 5", "PlayStation 4"]
 }
