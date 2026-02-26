@@ -44,12 +44,18 @@ const devices = [
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null)
+  const devicesRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.playbackRate = 0.5
     }
   }, [])
+
+  const scrollToDevices = (e: React.MouseEvent) => {
+    e.preventDefault()
+    devicesRef.current?.scrollIntoView({ behavior: "smooth" })
+  }
 
   return (
 
@@ -94,9 +100,30 @@ export default function Home() {
 
         </motion.div>
 
+        <a
+          href="#"
+          onClick={scrollToDevices}
+          className="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce opacity-70 hover:opacity-100 transition-opacity"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-8 w-8 text-gray-600"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </a>
+
       </section>
 
-      <section className="max-w-6xl mx-auto py-32">
+      <section ref={devicesRef} id="devices" className="max-w-6xl mx-auto py-32">
 
         <div className="grid grid-cols-2 gap-10">
 
